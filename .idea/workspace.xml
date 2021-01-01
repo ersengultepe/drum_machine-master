@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7556effc-31fa-4aee-b4e5-0fd8b4f95230" name="Default Changelist" comment="" />
+    <list default="true" id="7556effc-31fa-4aee-b4e5-0fd8b4f95230" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_API_30_x86]" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1mQQwAZiTgFJFS47c6JozDqXJhJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
@@ -63,6 +73,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="510" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609426478287" />
+    <state x="576" y="418" width="309" height="276" key="Github.ShareDialog" timestamp="1609501594211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="576" y="418" width="309" height="276" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609501594211" />
+    <state x="414" y="216" key="Github.UntrackedFilesDialog" timestamp="1609501606229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="216" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609501606229" />
     <state width="1401" height="140" key="GridCell.Tab.0.bottom" timestamp="1609500648292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -83,5 +101,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="231" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609426553927" />
+    <state x="322" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609501747752">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="322" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609501747752" />
   </component>
 </project>

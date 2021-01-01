@@ -13,58 +13,56 @@ class DrumMachine extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.black54,
         body: SafeArea(
-            child: Column(
-          children: <Widget>[
-            SizedBox(
-              height: 20,
-            ),
-            Row(
-              children: <Widget>[
-                voiceButton('bip', Colors.deepOrange),
-                SizedBox(
-                  width: 10,
+            child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+            children: <Widget>[
+              Expanded(
+                child: Row(
+                  children: <Widget>[
+                    voiceButton('bip', Colors.deepOrange),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    voiceButton('bongo', Colors.blueAccent),
+                  ],
                 ),
-                voiceButton('bongo', Colors.blueAccent),
-              ],
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            Row(
-              children: <Widget>[
-                voiceButton('clap1', Colors.greenAccent),
-                SizedBox(
-                  width: 10,
+              ),
+              Expanded(
+                child: Row(
+                  children: <Widget>[
+                    voiceButton('clap1', Colors.greenAccent),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    voiceButton('crash', Colors.yellowAccent),
+                  ],
                 ),
-                voiceButton('crash', Colors.yellowAccent),
-              ],
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            Row(
-              children: <Widget>[
-                voiceButton('clap2', Colors.purpleAccent),
-                SizedBox(
-                  width: 10,
+              ),
+              Expanded(
+                child: Row(
+                  children: <Widget>[
+                    voiceButton('clap2', Colors.purpleAccent),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    voiceButton('how', Colors.brown),
+                  ],
                 ),
-                voiceButton('how', Colors.brown),
-              ],
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            Row(
-              children: <Widget>[
-                voiceImage('clap3', Colors.black54),
-                // voiceButton('clap3', Colors.pink),
-                SizedBox(
-                  width: 10,
+              ),
+              Expanded(
+                child: Row(
+                  children: <Widget>[
+                    voiceImage('clap3', Colors.black54),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    voiceButton('oobah', Colors.lime),
+                  ],
                 ),
-                voiceButton('oobah', Colors.lime),
-              ],
-            ),
-          ],
+              ),
+            ],
+          ),
         )),
       ),
     );
